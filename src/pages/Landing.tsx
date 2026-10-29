@@ -5,10 +5,10 @@ export const Landing = () => (
   <main className={styles.container}>
     <h1 className={styles.title}>eid-cloud</h1>
     <p className={styles.subtitle}>
-      Your encrypted cloud vault. Client-side encryption is coming soon.
+      Your encrypted cloud vault. Verify with your Swiss e-ID to unlock.
     </p>
-    <Link to="/vault" className={styles.cta}>
-      Open your vault
+    <Link to="/unlock" className={styles.cta}>
+      Unlock your vault
     </Link>
   </main>
 );

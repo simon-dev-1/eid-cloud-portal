@@ -13,6 +13,17 @@
   justify-content: space-between;
 }
 
+.actions {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-4);
+}
+
+.welcome {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
 .title {
   font-size: 2rem;
   font-weight: 700;
@@ -21,8 +32,23 @@
 .homeLink {
   color: var(--color-text-muted);
   text-decoration: none;
+  font-size: 0.875rem;
 }
 
 .homeLink:hover {
   text-decoration: underline;
+}
+
+.lock {
+  padding: var(--space-1) var(--space-3);
+  color: #ffffff;
+  background-color: var(--color-danger);
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.lock:hover {
+  background-color: var(--color-danger-hover);
 }
