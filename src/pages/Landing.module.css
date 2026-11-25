@@ -33,3 +33,13 @@
 .cta:hover {
   background-color: var(--color-primary-hover);
 }
+
+.infoLink {
+  margin-top: var(--space-2);
+  color: var(--color-text-muted);
+  text-decoration: underline;
+}
+
+.infoLink:hover {
+  color: var(--color-text);
+}

@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
 import { UnlockProvider } from './context/UnlockProvider';
+import { Info } from './pages/Info';
 import { Landing } from './pages/Landing';
 import { NotFound } from './pages/NotFound';
 import { Unlock } from './pages/Unlock';
@@ -13,6 +14,7 @@ export default function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/unlock" element={<Unlock />} />
           <Route path="/vault" element={<Vault />} />
+          <Route path="/info" element={<Info />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </UnlockProvider>

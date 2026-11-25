@@ -10,5 +10,8 @@ export const Landing = () => (
     <Link to="/unlock" className={styles.cta}>
       Unlock your vault
     </Link>
+    <Link to="/info" className={styles.infoLink}>
+      About this deployment
+    </Link>
   </main>
 );
